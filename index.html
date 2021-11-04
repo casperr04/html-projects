@@ -1,0 +1,77 @@
+<main>
+
+  <head>
+    <title> Monkey Survey Form </title>
+  </head>
+
+  <body>
+    <h1 id="title"> Monkey Survey Form </h1>
+    <p id="description"> <b><u>Which Monkey is the best? Give us your opinion!</u></b></p>
+    <form id="survey-form">
+      <label id="name-label" for="name" class="inputs-resize">Name</label>
+      <div>
+        <input type="text" name="name" id="name" placeholder="Enter your Name" required class="inputs-resize" />
+      </div>
+      <label id="email-label" for="email">Email</label>
+      <div>
+        <input type="email" placeholder="Enter your Email" id="email" required class="inputs-resize" />
+      </div>
+      <div>
+        <label id="number-label" for="number" class="inputs-resize">Age (Optional)</label>
+      </div>
+      <input type="number" min="0" max="99" placeholder="Enter your Age" id="number" class="inputs-resize" />
+      <div>
+        <label id="select-label" for="select">Which monkey is the best?</label>
+      </div>
+      <div>
+        <select name="select" id="dropdown" class="inputs-resize">
+          <option value="Proboscis monkey">Proboscis monkey</option>
+          <option value="Mandrill">Mandrill</option>
+          <option value="Golden snub-nosed monkey">Golden snub-nosed monkey</option>
+        </select>
+      </div>
+      <div>
+        <label> Do you think monkeys are cute? </label>
+      </div>
+      <div>
+        <input type="radio" id="cute" name="cute-monkeys" value="cute">
+        <label for="cute"> Very! </label>
+      </div>
+      <div>
+        <input type="radio" id="maybe" name="cute-monkeys" value="maybe">
+        <label for="maybe"> Maybe? </label>
+      </div>
+      <div>
+        <input type="radio" id="nah" name="cute-monkeys" value="nah">
+        <label for="nah"> Nah.. </label>
+      </div>
+      <div>
+        <label>What do you feed your monkeys?</label>
+      </div>
+      <div>
+        <input type="checkbox" id="food1" name="food1" value="banana" />
+        <label for="food1"> Bananas </label>
+      </div>
+      <div>
+        <input type="checkbox" id="food2" name="food2" value="cashew" />
+        <label for="food2"> Cashews </label>
+      </div>
+      <div>
+        <input type="checkbox" id="food3" name="food3" value="peanut" />
+        <label for="food3"> Peanuts </label>
+      </div>
+      <div>
+        <input type="checkbox" id="food4" name="food4" value="almonds" />
+        <label for="food4"> Almonds </label>
+      </div>
+      <div>
+        <label> Share some monkey ideas here! </label>
+      </div>
+      <div>
+        <textarea id="monkey-ideas" name="monkey-ideas" rows="8" cols="85">
+            </textarea>
+        <input type="submit" value="Submit" id="submit">
+      </div>
+    </form>
+  </body>
+</main>
