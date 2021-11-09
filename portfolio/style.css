@@ -1,0 +1,70 @@
+@media (height: 200px) {
+  
+}
+
+
+body {
+  font-family: 'Mohave', sans-serif;
+}
+
+
+nav {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  word-spacing: 10px;
+  background-color: #b08404;
+  height: 50px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  font-size: 18px;
+}
+
+
+
+header {
+  text-align:center;
+  background-color: #181a1b;
+  color: white;
+  margin: -10px;
+  font-size: 25px;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#projects {
+  text-align: center;
+  background-color: #482c5c;
+  color: white;
+  margin: -10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.grid-container {
+  justify-items: center;
+  padding-top: 0px;
+  display: grid;
+  grid-template-areas: "image image image";
+  margin-top: 50px;
+  grid-column-gap: 200px;
+  padding: 50px;
+}
+
+
+.project-tile {
+  border-style: solid;
+  border-color: #828382;
+  background-color: #121a1b;
+  height: 460px;
+  width: 400px;
+  font-size: 18px;
+}
+
+a {
+  color: white;
+}

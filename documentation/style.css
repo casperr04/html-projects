@@ -1,0 +1,28 @@
+@media (max-width: 100px) {
+  background-color: red;
+}
+
+main {
+  padding-left: 320px;
+  line-height: 150%;
+  margin-bottom: 500px;
+}
+
+nav {
+  line-height: 300%;
+  border-style: solid;
+  margin-right: 1350px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 200px;
+  margin-top: -30px;
+  margin-left: -20px;
+  position: fixed;
+  text-align: center;
+  font-size: 17px;
+}
+
+li {
+  padding-left: 10px;
+}
+
